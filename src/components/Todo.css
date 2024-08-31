@@ -1,0 +1,87 @@
+.todo-container{
+  background-color: black;
+  width: 60vw;
+  margin: 3em auto;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+}
+
+.header{
+    font-size: 2em;
+    text-align: center;
+    color: #ff0000dd;
+    margin-bottom: 1em;
+}
+/* .add-task{
+    background-color: black;
+    padding: 0.5em;
+    border-radius: 1em;
+    border: 2px soild yellowgreen ;
+} */
+.input{
+    padding: 0.5em;
+    width: 80%;
+    font-size: 1.25em;
+    color: white;
+    background-color: #1f1b1b;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px rgb(20, 19, 19);
+}
+.input:focus{
+    outline: none;
+    border: 2px solid #bfaaaa41;
+}
+.addbtn{
+    background-color:#dc0b0bdd;
+    color: black;
+    font-size: 1.25em;
+    margin: 15px;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 2px rgba(255, 0, 0, 0.744);
+}
+.addbtn:hover{
+    background-color:#ba0b0be1;
+    box-shadow: 1px 3px 2px #cc0c0ce1 ;
+}
+
+.list-tasks:hover{
+    background-color: rgba(90, 88, 88, 0.684);
+    color: rgba(255, 255, 255, 0.759);
+}
+
+.list-tasks{
+    font-size: 1.25em;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    width: 90%;
+    color: rgb(255, 89, 0);
+    background-color:  #1f1b1b;
+    /* border: 1px solid yellow; */
+    border-radius: 10px;
+    padding: 0.5em;
+    margin: 0.7em 1.8em;
+    box-shadow: 2px 4px 3px rgb(20, 19, 19);
+}
+.dlt-btn{
+    background-color: #dc0b0bdd;
+    color: black;
+    margin: 0px 5px;
+    font-size: 0.75em;
+    padding: 3px 5px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+    box-shadow: 1px 3px 2px rgba(255, 0, 0, 0.744);
+}
+
+.dlt-btn:hover{
+    background-color:#ba0b0be1;
+    box-shadow: 1px 3px 2px #cc0c0ce1 ;
+}
