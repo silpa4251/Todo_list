@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-const ListTask = ({task,deleteTask,completeTask , editTask}) => {
+const ListTask = ({ task, deleteTask, completeTask, editTask}) => {
   const [isEditing, setIsEditing]= useState(false);
   const [newTitle,setNewTitle]= useState(task.title);
 

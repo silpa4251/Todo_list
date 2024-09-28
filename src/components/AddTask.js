@@ -5,7 +5,6 @@ const AddTask = ({addTask}) => {
   const additem = () => {
     addTask(value);
     setValue('');
-    // console.log(value);
   }
 
   const inputRef = useRef('null')
