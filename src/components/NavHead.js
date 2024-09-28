@@ -4,7 +4,7 @@ import React from 'react'
 const NavHead = () => {
   return (
     <>
-     <Navbar bg="black" collapseOnSelect expand="lg" data-bs-theme="dark">
+     <Navbar collapseOnSelect expand="lg" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="#home" id='todo'>TODO APP</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

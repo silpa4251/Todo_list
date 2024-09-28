@@ -1,13 +1,14 @@
 .App {
   text-align: center;
   height: 100vh;
-  background-color: black;
+  background-image: url(./assets/bacground1.png);
+   background-position: center;
 }
 #todo{
-  color: #ee1414d5;
+  color: #caaa84;
   font-size: 2em;
   margin-top: 20px;
-  text-shadow: 3px 1px 2px  #b41212b7;
+  text-shadow: 2px 1px 1px;
 }
 #link{
   text-decoration: none;
